@@ -1,0 +1,191 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#1E1E1E",
+    "coordinateSystem": "absolute"
+  },
+  "elements": [
+    {
+      "id": "menu_icon",
+      "type": "icon",
+      "name": "hamburger",
+      "position": { "x": 60, "y": 50 },
+      "size": { "width": 40, "height": 30 },
+      "strokeWidth": 3,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "top_divider",
+      "type": "line",
+      "position": { "x": 0, "y": 120 },
+      "size": { "width": 1920, "height": 2 },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "date_text",
+      "type": "text",
+      "content": "20/01/2025",
+      "position": { "x": 1720, "y": 70 },
+      "font": {
+        "family": "script",
+        "size": 24,
+        "weight": "regular"
+      },
+      "color": "#FFFFFF",
+      "align": "right"
+    },
+    {
+      "id": "earth_icon",
+      "type": "icon",
+      "name": "earth",
+      "position": { "x": 250, "y": 300 },
+      "size": { "width": 60, "height": 60 },
+      "strokeWidth": 2,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "dotted_path",
+      "type": "path",
+      "style": "dashed",
+      "strokeWidth": 4,
+      "dashPattern": [8, 8],
+      "color": "#FFFFFF",
+      "points": [
+        { "x": 280, "y": 330 },
+        { "x": 400, "y": 250 },
+        { "x": 520, "y": 360 },
+        { "x": 640, "y": 480 },
+        { "x": 720, "y": 560 },
+        { "x": 800, "y": 650 }
+      ]
+    },
+    {
+      "id": "direction_arrow",
+      "type": "icon",
+      "name": "triangle_arrow",
+      "position": { "x": 740, "y": 610 },
+      "size": { "width": 30, "height": 30 },
+      "rotation": 45,
+      "fill": true,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "main_text",
+      "type": "text",
+      "content": "TE AMO DAQUI",
+      "position": { "x": 200, "y": 430 },
+      "font": {
+        "family": "sans-serif",
+        "size": 34,
+        "weight": "bold"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "spotify_icon",
+      "type": "icon",
+      "name": "spotify",
+      "position": { "x": 200, "y": 470 },
+      "size": { "width": 24, "height": 24 },
+      "strokeWidth": 0,
+      "fill": true,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "secondary_text",
+      "type": "text",
+      "content": "até a lua",
+      "position": { "x": 260, "y": 470 },
+      "font": {
+        "family": "script",
+        "size": 28,
+        "weight": "regular"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "listener_icon",
+      "type": "illustration",
+      "name": "person_with_headphones",
+      "position": { "x": 200, "y": 700 },
+      "size": { "width": 120, "height": 120 },
+      "strokeWidth": 2,
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moon_image",
+      "type": "image",
+      "name": "moon",
+      "position": { "x": 750, "y": 650 },
+      "size": { "width": 180, "height": 180 },
+      "style": {
+        "shape": "circle",
+        "colorMode": "grayscale"
+      }
+    },
+    {
+      "id": "music_player",
+      "type": "container",
+      "position": { "x": 1200, "y": 260 },
+      "size": { "width": 480, "height": 640 },
+      "style": {
+        "backgroundColor": "#EFE8DA",
+        "borderRadius": 40
+      },
+      "children": [
+        {
+          "id": "player_image",
+          "type": "image",
+          "position": { "x": 40, "y": 40 },
+          "size": { "width": 400, "height": 400 },
+          "style": {
+            "borderRadius": 24,
+            "colorMode": "grayscale"
+          }
+        },
+        {
+          "id": "progress_bar",
+          "type": "slider",
+          "position": { "x": 60, "y": 460 },
+          "size": { "width": 360, "height": 4 },
+          "color": "#000000",
+          "handle": {
+            "shape": "circle",
+            "size": { "width": 10, "height": 10 },
+            "positionPercent": 50
+          }
+        },
+        {
+          "id": "player_controls",
+          "type": "icon_group",
+          "position": { "x": 60, "y": 510 },
+          "spacing": 40,
+          "icons": [
+            {
+              "name": "shuffle",
+              "size": { "width": 24, "height": 24 }
+            },
+            {
+              "name": "previous",
+              "size": { "width": 24, "height": 24 }
+            },
+            {
+              "name": "play_pause",
+              "size": { "width": 36, "height": 36 }
+            },
+            {
+              "name": "next",
+              "size": { "width": 24, "height": 24 }
+            },
+            {
+              "name": "repeat",
+              "size": { "width": 24, "height": 24 }
+            }
+          ],
+          "color": "#000000"
+        }
+      ]
+    }
+  ]
+}

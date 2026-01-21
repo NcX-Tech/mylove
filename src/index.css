@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&family=League+Spartan:wght@400;500;600;700&family=Parisienne&display=swap");
+
+:root {
+  --bg-dark: #1e1e1e;
+  --card-beige: #e9e3d7;
+  --text-light: #ffffff;
+  --font-title: "TAN Twinkle", "Ibarra Real Nova", Georgia, serif;
+  --font-body: "Ibarra Real Nova", Georgia, serif;
+  --font-sans: "League Spartan", "Helvetica Neue", Arial, sans-serif;
+  --font-script: "Beautifully Delicious Script", "Parisienne", cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
